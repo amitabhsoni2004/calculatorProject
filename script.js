@@ -7,9 +7,6 @@ let currentInput = '';
 let previousInput = '';
 let operation = null;
 
-// Fetch the beep sound element
-// const beep = new Audio('https://media.geeksforgeeks.org/wp-content/uploads/20190531135120/beep.mp3');
-
 function handleButtonClick(event) {
     const target = event.target.closest('.num');
 
@@ -17,8 +14,7 @@ function handleButtonClick(event) {
 
     const buttonText = target.innerText;
 
-    // Play the beep sound
-    // beep.play();
+    
 
     if (buttonText.match(/[0-9.]/)) {
         handleNumber(buttonText);
