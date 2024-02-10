@@ -69,8 +69,8 @@
     /* margin-top: 20px; */
 }
 .back{
-    background-color: red;
-    box-shadow: 0px 10px 40px red;
+    background-color: #3b00f7;
+    box-shadow: 0px -1px 9px #444444;
 }
 .back:hover{
     transition: 1s;
